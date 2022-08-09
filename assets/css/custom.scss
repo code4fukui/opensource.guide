@@ -260,3 +260,26 @@ blockquote {
    direction: rtl;  /* Right to Left */
   }
 }
+
+.container-lg {
+  max-width: none;
+}
+.col-md-6 {
+  width: 20%;
+}
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 544px) {
+  .col-md-6 {
+    width: 75%;
+  }
+}
+.guide-cover-img {
+  height: 160px !important;
+}
+.guide-cover-img img {
+  padding: 0;
+}
