@@ -60,6 +60,7 @@ While we've got advice about running an open source project, we're not lawyers. 
 ## Getting Started
 
 ```
+npm i
 sudo gem install bundler
 sudo gem install jekyll
 sudo gem install github-pages
