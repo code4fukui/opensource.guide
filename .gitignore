@@ -12,3 +12,4 @@ test/node_modules
 test/package-lock.json
 Gemfile.lock
 node_modules/
+.jekyll-cache/
