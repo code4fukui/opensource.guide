@@ -56,3 +56,15 @@ While we've got advice about running an open source project, we're not lawyers. 
 [28]:https://github.com/wooorm
 [29]:https://github.com/sophshep
 [30]:https://github.com/jeejkang
+
+## Getting Started
+
+```
+sudo gem install bundler
+sudo gem install jekyll
+sudo gem install github-pages
+sudo gem install html-proofer -v "3.19.4"
+sudo gem install ffi -- --enable-libffi-alloc
+bundle exec jekyll serve
+```
+open http://127.0.0.1:4000
