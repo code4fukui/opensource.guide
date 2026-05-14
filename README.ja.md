@@ -1,57 +1,55 @@
 # Open Source Guides
 
-> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
-
 [
 ![Build Status](https://github.com/github/opensource.guide/workflows/GitHub%20Actions%20CI/badge.svg)
 ](https://github.com/github/opensource.guide/actions)
 
-[Open Source Guides](https://opensource.guide/) are a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project.
+[Open Source Guides](https://opensource.guide/) は、オープンソースプロジェクトの運営や貢献方法を学びたい個人、コミュニティ、企業向けのリソース集です。
 
-The guides were created and are curated by GitHub, with input from community reviewers. Our goal is to aggregate community best practices, *not* what GitHub (or any other individual or entity) thinks is best.
+本ガイドはGitHubによって作成・キュレーションされており、コミュニティのレビュアーからの意見も取り入れています。私たちの目標は、コミュニティのベストプラクティスを集約することであり、GitHub（あるいは他の個人や団体）が最善と考えるものを提示することでは*ありません*。
 
-## Running Locally
+## ローカルでの実行
 
-This site is powered by [Jekyll](https://jekyllrb.com/). To run the site locally, you'll need [Ruby](https://www.ruby-lang.org/en/documentation/installation/), [Node.js](https://nodejs.org/), and [Bundler](https://bundler.io/).
+本サイトは [Jekyll](https://jekyllrb.com/) によって構築されています。ローカルでサイトを実行するには、[Ruby](https://www.ruby-lang.org/en/documentation/installation/)、[Node.js](https://nodejs.org/)、および [Bundler](https://bundler.io/) が必要です。
 
-1.  **Clone the repository:**
+1.  **リポジトリのクローン:**
     ```bash
     git clone https://github.com/github/opensource.guide.git
     cd opensource.guide
     ```
 
-2.  **Install dependencies:**
+2.  **依存関係のインストール:**
     ```bash
     npm install
     bundle install
     ```
 
-3.  **Start the Jekyll server:**
+3.  **Jekyllサーバーの起動:**
     ```bash
     bundle exec jekyll serve
     ```
 
-4.  **View the site** at [http://127.0.0.1:4000](http://127.0.0.1:4000).
+4.  [http://127.0.0.1:4000](http://127.0.0.1:4000) で**サイトを表示**します。
 
-## Contributing, License & Disclaimer
+## コントリビューション、ライセンス、免責事項
 
-We welcome feedback and contributions! Please see our [contributing guidelines](/CONTRIBUTING.md) for more information.
+フィードバックやコントリビューションは大歓迎です！詳細については、[コントリビューションガイドライン](/CONTRIBUTING.md)をご参照ください。
 
-Content is released under [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/). See [notices.md](notices.md) for complete details and our legal [disclaimer](notices.md#legal-disclaimer).
+コンテンツは [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/) の下で公開されています。完全な詳細については [notices.md](notices.md) を、法的な[免責事項](notices.md#legal-disclaimer)についてもあわせてご覧ください。
 
-## Acknowledgments
+## 謝辞
 
-The initial release of these guides was authored by:
+本ガイドの初期リリースは、以下のメンバーによって執筆されました:
 *   **[@nayafia][1]**
 *   **[@bkeepers][2]**
 *   **[@stephbwills][3]**
 *   **[@mlinksva][4]**
 
-Design and illustration by:
+デザインおよびイラスト担当:
 *   **[@sophshep][29]**
 *   **[@jeejkang][30]**
 
-Thank you to the following people for lending their valuable input and expertise leading up to the initial release:
+初期リリースに至るまで、貴重な意見と専門知識を提供してくださった以下の方々に感謝いたします:
 
 *   [@aitchabee][5]
 *   [@benbalter][6]
